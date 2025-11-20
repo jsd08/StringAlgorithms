@@ -7,7 +7,14 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
-        return "";
+        String po = "hello";
+        for(int i = 0; i < word.length(); i++)
+        {
+          po = po + word.charAt(i) + "\n";
+        }
+        return po;
+      }
+      
     }
 
 
@@ -65,7 +72,7 @@ public class StringAlgorithms {
         // TODO: Add test calls for each challenge method
         
         System.out.println("Testing printCharacters:");
-        // Example:
+        // Example
         // System.out.println(printCharacters("hello"));
 
         System.out.println("\nTesting reverseWord:");
