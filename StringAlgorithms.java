@@ -39,10 +39,17 @@ public static String reverseWord(String word)
      * Write a method that takes a String 'sentence' and returns
      * the sentence with the first letter of each word capitalized.
      */
-   public static String capitalizeString(String sentence) {
-        // TODO: Implement this method
-        return "";
+public static String capitalizeString(String sentense) 
+{
+    String jd = "";
+
+    for(int i = 0; i < sentense.length(); i++)
+    {
+        jd = jd + Character.toUpperCase(sentense.charAt(i)); 
     }
+
+    return jd; 
+}
 
 
     /**
@@ -83,9 +90,8 @@ public static String reverseWord(String word)
         
         System.out.println(reverseWord("hello"));
 
-        System.out.println("\nTesting capitalizeString:");
         // Example:
-        // System.out.println(capitalizeString("the quick brown fox"));
+        System.out.println(capitalizeString("im jack"));
 
         System.out.println("\nTesting detectPalindrome:");
         // Example:
