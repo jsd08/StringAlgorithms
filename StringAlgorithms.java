@@ -8,14 +8,13 @@ public class StringAlgorithms {
     public static String printCharacters(String word) {
         // TODO: Implement this method
         String p = "";
-        for(int i = 0; i < worrd.length(); i++)
+        for(int i = 0; i < word.length(); i++)
         {
           p = p + word.charAt(i) + "\n";
         }
         return p;
       }
       
-    }
 
 
     /**
