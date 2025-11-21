@@ -17,15 +17,21 @@ public class StringAlgorithms {
       
 
 
-    /**
+/**
      * Challenge 2:
-     * Write a method that takes a String 'word' and returns
-     * a new String with the characters reversed.
+     * this mehtod takes a word and flips it bakwards
      */
-    public static String reverseWord(String word) {
-        // TODO: Implement this method
-        return "";
+public static String reverseWord(String word) 
+{
+    String r = ""; 
+
+    for(int i = word.length()-1 ; i >= 0 ; i-- )
+    {
+        r = r + word.charAt(i); 
     }
+
+    return r;
+}
 
 
     /**
@@ -73,9 +79,9 @@ public class StringAlgorithms {
         // Example
         System.out.println(printCharacters("hello"));
 
-        System.out.println("\nTesting reverseWord:");
         // Example:
-        // System.out.println(reverseWord("hello"));
+        
+        System.out.println(reverseWord("hello"));
 
         System.out.println("\nTesting capitalizeString:");
         // Example:
