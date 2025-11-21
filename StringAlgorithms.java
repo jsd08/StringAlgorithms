@@ -7,12 +7,12 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
-        String po = "hello";
-        for(int i = 0; i < word.length(); i++)
+        String p = "";
+        for(int i = 0; i < worrd.length(); i++)
         {
-          po = po + word.charAt(i) + "\n";
+          p = p + word.charAt(i) + "\n";
         }
-        return po;
+        return p;
       }
       
     }
@@ -34,7 +34,7 @@ public class StringAlgorithms {
      * Write a method that takes a String 'sentence' and returns
      * the sentence with the first letter of each word capitalized.
      */
-    public static String capitalizeString(String sentence) {
+   public static String capitalizeString(String sentence) {
         // TODO: Implement this method
         return "";
     }
@@ -58,7 +58,7 @@ public class StringAlgorithms {
      * character exists, return a space ' '.
      */
     public static char firstUniqueChar(String word) {
-        // TODO: Implement this method
+        //TODO: Implement this method
         return ' ';
     }
 
@@ -71,9 +71,8 @@ public class StringAlgorithms {
 
         // TODO: Add test calls for each challenge method
         
-        System.out.println("Testing printCharacters:");
         // Example
-        // System.out.println(printCharacters("hello"));
+        System.out.println(printCharacters("hello"));
 
         System.out.println("\nTesting reverseWord:");
         // Example:
